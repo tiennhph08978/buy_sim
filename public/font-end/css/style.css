@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto";
+    font-size: 14px;
+    background-color: #fff;
+    background-image: url("/font-end/img/body.jpg");
+    background-position: top center;
+    background-attachment: fixed;
+}
+.box {
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    background: #aaa;
+    margin: 10px 0;
+    padding: 5px;
+    width: 100%;
+    min-height: 200px;
+    border: 2px #ccc solid;
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-weight: 700;
+    color: #fff;
+    padding-left: 25px;
+    text-transform: uppercase;
+}
+a.nav-link:hover {
+    color: orange !important;
+}
+.hotline a {
+    width: 130px;
+    border-radius: 25px;
+}
+.rounded {
+    max-height: 80px;
+    border-radius: 1rem !important;
+    box-shadow: 2px 2px #dadada;
+}
+.icon_viettel {
+    border-radius: 20px;
+    background: #5e91ff;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.rounded-right {
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+.list-group-item {
+    color: #005064;
+    font-weight: 750;
+    font-size: 14px;
+    padding: 0.5rem 0.5rem;
+}
+.list-group-item:hover {
+    background: #337ab7;
+    cursor: pointer;
+    color: #fff;
+}
+
+.list-group-item.active {
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+.contenttext {
+    padding: 15px;
+    max-height: 500px;
+    overflow: scroll;
+}
+.simcard .rounded .card-body strong {
+    color: #1f6600;
+    font-weight: 700;
+}
+.simcard .rounded .card-body p {
+    color: black;
+}
+.simcard:hover {
+    text-decoration: none;
+}
+.rounded:hover {
+    border: 2px solid orange;
+}
+.paginate_button:hover {
+    background-color: #aaa;
+}
+.table-hover tbody tr:hover {
+    background-color: #e7ffca;
+}
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border: 1px solid #dee2e6;
+}
+@media screen and (max-width: 667px) {
+    .paginate_button {
+        padding: 5px !important;
+    }
+}
